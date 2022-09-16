@@ -1,49 +1,63 @@
-
 import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import Greetings from "../greeting/Greetings"
-import ItemCounter from "../itemcounter/ItemCounter"
 import ItemList from "../itemlist/ItemList";
 
 const products = [
     {
         id: 1,
-        name: "Pepino",
-        img: "aca va la imagen"
+        name: "Correa",
+        img: "aca va la imagen",
+        category: "transport"
     },
     {
         id: 2,
-        name: "Pera",
-        img: "aca va la imagen2"
+        name: "Bosal",
+        img: "aca va la imagen2",
+        category: "transport"
     },
     {
         id: 3,
-        name: "Palta",
-        img: "aca va la imagen3"
-    }
+        name: "Old Prince 15kg",
+        img: "aca va la imagen3",
+        category: "eat"
+    },
+    {
+      id: 4,
+      name: "ProPlan 15kg",
+      img: "aca va la imagen4",
+      category: "eat"
+  }
 ];
 
 
 const ItemListContainer = () => {
   const [data, setData] = useState([]);
-  
+
+  const {categoryId} = useParams();
+
   useEffect(() => {
    const getData = new Promise(resolve => {
     setTimeout(() => {
       resolve(products);
     }, 2000);
    });
-   getData.then(res => setData(res));
+   if (categoryId) {
 
-  }, []);
+    getData.then(res => setData(res.filter(product => product.category === categoryId)));
 
-  const onAdd = (quantity) => { 
-    console.log(`Compraste ${quantity} unidades`);
+   } else {
+
+    getData.then(res => setData(res));
 
    }
+  
+
+  }, [categoryId]);
+
     return (
     <>
     <Greetings saludo='Bienvenido!'/>
-    <ItemCounter initial={1} stock={5} onAdd={onAdd} />
     <ItemList data={data} />
     </>
   )
