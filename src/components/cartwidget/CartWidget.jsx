@@ -1,6 +1,7 @@
 
 
 const CartWidget = () => {
+
   return (
     <div className="cartwidget-container">
         <i className="bi bi-bag"></i>
