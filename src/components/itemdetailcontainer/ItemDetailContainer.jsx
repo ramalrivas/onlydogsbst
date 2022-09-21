@@ -4,30 +4,38 @@ import { ItemDetail } from "../itemdetail/ItemDetail"
 
 
 const products = [
-    {
-        id: 1,
-        name: "Correa",
-        img: "aca va la imagen",
-        category: "transport"
-    },
-    {
-        id: 2,
-        name: "Bosal",
-        img: "aca va la imagen2",
-        category: "transport"
-    },
-    {
-        id: 3,
-        name: "Old Prince 15kg",
-        img: "aca va la imagen3",
-        category: "eat"
-    },
-    {
-      id: 4,
-      name: "ProPlan 15kg",
-      img: "aca va la imagen4",
+  {
+      id: 1,
+      name: "Correa",
+      price: 500,
+      quantity: 5,
+      img: "aca va la imagen",
+      category: "transport"
+  },
+  {
+      id: 2,
+      name: "Bosal",
+      price: 600,
+      quantity: 5,
+      img: "aca va la imagen2",
+      category: "transport"
+  },
+  {
+      id: 3,
+      name: "Old Prince 15kg",
+      price: 7000,
+      quantity: 5,
+      img: "aca va la imagen3",
       category: "eat"
-  }
+  },
+  {
+    id: 4,
+    name: "ProPlan 15kg",
+    price: 12000,
+    quantity: 5,
+    img: "aca va la imagen4",
+    category: "eat"
+}
 ];
 
 const ItemDetailContainer = () => {

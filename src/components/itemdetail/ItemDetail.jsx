@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ItemCounter from '../itemcounter/ItemCounter';
-import  { useCartContext }  from '../../context/CartContext';
+import  { useCartContext } from '../../context/CartContext';
 
 
 export const ItemDetail = ({data}) => {
     const [addToCart, setaddToCart] = useState(false);
     const {addProductCart} = useCartContext();
 
-    const onAdd = (units) => { 
+    const onAdd = (quantity) => { 
         setaddToCart(true);
-        addProductCart(data, units);
+        addProductCart(data, quantity);
            }
  return (
     <div className="itemDetail-container">
