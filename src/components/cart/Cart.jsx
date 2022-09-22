@@ -21,6 +21,7 @@ const Cart = () => {
   cart.map(product => <ItemCart key={product.id} product={product} />)
 }
   <p>Total: $ { totalPrice() }</p>
+  <button>Finalizar Compra</button>
   </>
     
   )

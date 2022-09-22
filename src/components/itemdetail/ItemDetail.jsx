@@ -14,11 +14,13 @@ export const ItemDetail = ({data}) => {
            }
  return (
     <div className="itemDetail-container">
+        <img src={data.img} alt="" />
         <h3>{data.name}</h3>
-        <p>{data.detail}</p>
+                
         {
            addToCart ? <Link to='/cart'>Finalizar Compra</Link> : <ItemCounter initial={1} stock={5} onAdd={onAdd} />
     }
+    <p>{data.description}</p>
     </div>
   )
 }
