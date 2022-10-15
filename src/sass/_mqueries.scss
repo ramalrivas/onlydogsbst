@@ -3,27 +3,71 @@
 @media (min-width: 576px) { 
     .navbar-container {
         flex-direction: column;
-        h1 {
-            
-        }
+ 
         ul {
             margin-top: 10px;
         }
     }
  }
-/*
+
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+    .navbar-container {
+        .navbar-brand {
+            h1 {
+                
+            font-size: 8.5rem;
+            }
+            }
+        ul {
+            margin-top: 10px;
+        }
+    }
+ 
+ }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {    
+    .navbar-container {
+    .navbar-brand {
+        h1 {
+            
+        font-size: 11rem;
+        }
+        }
+    ul {
+        margin-top: 10px;
+    }
+} 
+}
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { 
+    .navbar-container {
+        .navbar-brand {
+            h1 {
+                
+            font-size: 13rem;
+            }
+            }
+        ul {
+            margin-top: 10px;
+        }
+    } 
+ }
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) { 
-
+    .navbar-container {
+        .navbar-brand {
+            h1 {
+                
+            font-size: 14.5rem;
+            }
+            }
+        ul {
+            margin-top: 10px;
+        }
+    } 
 
  }
-*/

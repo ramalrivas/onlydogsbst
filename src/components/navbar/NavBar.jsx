@@ -16,13 +16,17 @@ const NavBar = () => {
         </div>
         <div className="nabvar-menu">
         <ul>
-            <li><NavLink to='/'> <GiDogHouse />Inicio</NavLink></li>
-            <li><NavLink to='/category/eat'> <TbDogBowl /> Alimentacion</NavLink></li>
-            <li><NavLink to='/category/rest'> <GiSittingDog /> Descanso</NavLink></li>
+            <li><NavLink to='/' style={({ isActive }) => ({ color: isActive ? "#242529" : "#8A96A3" })}
+  className={'noActive'}> <GiDogHouse />Inicio</NavLink></li>
+            <li><NavLink to='/category/eat' style={({ isActive }) => ({ color: isActive ? "#242529" : "#8A96A3" })}
+  className={'noActive'}> <TbDogBowl /> Alimentacion</NavLink></li>
+            <li><NavLink to='/category/rest' style={({ isActive }) => ({ color: isActive ? "#242529" : "#8A96A3" })}
+  className={'noActive'}> <GiSittingDog /> Descanso</NavLink></li>
         </ul>
         </div>
         <div className="navbar-cartWidget">  
-          <NavLink className="" to='cart'> <CartWidget /></NavLink>
+          <NavLink to='cart' style={({ isActive }) => ({ color: isActive ? "#ADB6BF" : "#8A96A3" })}
+  className={'noActive'}> <CartWidget /></NavLink>
         </div>
 
      
