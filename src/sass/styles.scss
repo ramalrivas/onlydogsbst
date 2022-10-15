@@ -1,0 +1,19 @@
+//Fonts
+@import url(//db.onlinewebfonts.com/c/481d4f7664206d7e43e55cd8b32571dc?family=CambridgeW01-BoldExpanded);
+//reset
+@import './normalize';
+
+//generals
+@import './globals';
+//variables
+@import './variables';
+
+
+//components
+@import '../components/navbar/navBar';
+@import '../components/itemlistcontainer/itemListContainer';
+@import '../components/item/item';
+@import '../components/cartwidget/cartWidget';
+
+//mqueries
+@import './mqueries';

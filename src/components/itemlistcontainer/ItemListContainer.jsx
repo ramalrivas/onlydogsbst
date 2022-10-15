@@ -29,10 +29,14 @@ export const ItemListContainer = () => {
   }, [categoryId]);
 
     return (
-    <>
+    <div className="itemListContainer-container">
+    <div className="greetings-container">
     <Greetings saludo={'Bienvenido!!'}/>
+    </div>
+    <div className="itemList-container">
     <ItemList data={data} />
-    </>
+    </div>
+    </div>
   )
 }
 

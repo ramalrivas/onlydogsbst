@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
+import './sass/styles.scss';
 import reportWebVitals from './reportWebVitals';
 import { initializeApp } from "firebase/app";
 

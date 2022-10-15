@@ -6,14 +6,16 @@ const Item = ({spec}) => {
   
 
   return (
-    <article>
-      <Link to={`/detail/${spec.id}`} className="">
-        <img src={spec.img} alt="" />
+  
+    <div className="item-container">
+      <Link to={`/detail/${spec.id}`}>
+        <div className="img-container">
+        <img src={spec.img} alt={spec.description} />
+        </div>
         <h3>{spec.name}</h3>
-        <p>{spec.price}</p>
-        <p>{spec.quantity}</p>
-        </Link>
-    </article>
+        <p>$ {spec.price}</p>
+      </Link>
+    </div>
    
   )
 }

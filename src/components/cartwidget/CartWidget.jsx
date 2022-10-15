@@ -5,7 +5,7 @@ export const CartWidget = () => {
 const {totalProducts} = useCartContext();
 
   return (
-    <div className="cartwidget-container">
+    <div className="cartWidget-widget">
         <i className="bi bi-bag"></i>
         <span>{totalProducts() || ''}</span>
     </div>
