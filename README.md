@@ -1,4 +1,4 @@
-# OnlyDogs
+# [OnlyDogs](https://onlydogs-coral.vercel.app/)
 ***
 ## Tabla de Contenidos.
 1. [Descripción](#descripción)
@@ -13,26 +13,26 @@ E-commerce de Alimento y accesorios solo para perros.  inspirado en la famosa pa
 
 ### Tecnologías
 
-La App fue desarrollada a partir de Create-ReactApp. Se utilizo Visual Studio Code como Editor de Codigo, los estilos se desarrollaron con Sass y se utilizaron React Icons para el Navbar y el CartWidget. El sitio se encuentra en vista previa en Vercel (https://onlydogs-coral.vercel.app/) y como Base de Datos se utilizó el Servicio de Firebase Debajo se especifican las versiones de las dependencias del proyecto.
-
-@testing-library/jest-dom: "^5.16.5,
-@testing-library/react": "^13.4.0,
-@testing-library/user-event": "^13.5.0,
-firebase": "^9.10.0,
-react": "^18.2.0,
-react-dom": "^18.2.0,
-react-icons": "^4.4.0,
-react-router-dom": "^6.4.0,
-react-scripts": "5.0.1,
-sass": "^1.55.0,
-web-vitals": "^2.1.4
+La App fue desarrollada a partir de Create-ReactApp. Se utilizo Visual Studio Code como Editor de Codigo, los estilos se desarrollaron con Sass y se utilizaron React Icons para el Navbar y el CartWidget. El sitio se encuentra en vista previa en Vercel [OnlyDogs](https://onlydogs-coral.vercel.app/) y como Base de Datos se utilizó el Servicio de Firebase.
+Debajo se especifican las versiones de las dependencias del proyecto.
+* @testing-library/jest-dom: "^5.16.5.
+* @testing-library/react": "^13.4.0.
+* @testing-library/user-event": "^13.5.0.
+* firebase": "^9.10.0.
+* react": "^18.2.0.
+* react-dom": "^18.2.0.
+* react-icons": "^4.4.0.
+* react-router-dom": "^6.4.0.
+* react-scripts": "5.0.1.
+* sass": "^1.55.0.
+* web-vitals": "^2.1.4.
 
 ### Instalación
 
-$ git clone https://github.com/ramalrivas/onlydogsbst.git
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+1. $ git clone https://github.com/ramalrivas/onlydogsbst.git
+2. $ cd ../path/to/the/file
+3. $ npm install
+4. $ npm start
 
 ### Producción.
 
