@@ -1,6 +1,6 @@
 # [OnlyDogs](https://onlydogs-coral.vercel.app/)
 
-## Tabla de Contenidos.
+### Tabla de Contenidos.
 1. [Descripción](#descripción)
 2. [Tecnologías.](#tecnologías)
 3. [Instalación](#instalación)
