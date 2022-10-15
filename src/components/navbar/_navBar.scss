@@ -1,8 +1,10 @@
 .navbar-container {
-    margin: 10px;
+    width: 96%;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 2%;
     padding: 10px;
     box-shadow: 1px 7px 11px 3px rgba(235,212,212,0.85);
     -webkit-box-shadow: 1px 7px 11px 3px rgba(235,212,212,0.85);
@@ -11,6 +13,7 @@
         text-decoration:none;
     }
     .navbar-brand {
+    
     .only {
         color: #00AFF0;
     }
@@ -20,32 +23,33 @@
         h1 {
         cursor: pointer;
         font-family: $font-primary;
-        font-size: 6.6rem;
+        font-size: 3.5rem;
     }
     }
-    
     ul {
-    list-style: none;
-    margin-left: 5px;
-    margin-right: 5px;
-
-    }
-
-    li {
-    display: inline;
-    padding: 0px 5px 0px 5px;
-    font-size: 1.5rem;
+        list-style: none;
+        margin-left: 5px;
+        margin-right: 5px;
     
-    }
-
-
-    .navbar-menu {
-        
-        .noActive {
-            color: #ADB6BF;
         }
-}
+
+        li {
+            display: inline;
+            padding: 0px 5px 0px 5px;
+            font-size: 1.5rem;
+            
+            }
+
+    .nabvar-menu {
+        
+       
+        .menu-icons {
+            
+            font-size: 2rem;
+        }
+    }
     .navbar-cartWidget {
+      
         display: inline;
         padding: 1px;
     }

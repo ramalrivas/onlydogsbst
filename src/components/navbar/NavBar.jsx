@@ -17,11 +17,11 @@ const NavBar = () => {
         <div className="nabvar-menu">
         <ul>
             <li><NavLink to='/' style={({ isActive }) => ({ color: isActive ? "#242529" : "#8A96A3" })}
-  className={'noActive'}> <GiDogHouse />Inicio</NavLink></li>
+              className={'noActive'}> <GiDogHouse className="menu-icons"/>Inicio</NavLink></li>
             <li><NavLink to='/category/eat' style={({ isActive }) => ({ color: isActive ? "#242529" : "#8A96A3" })}
-  className={'noActive'}> <TbDogBowl /> Alimentacion</NavLink></li>
+              className={'noActive'}> <TbDogBowl className="menu-icons"/> Alimentacion</NavLink></li>
             <li><NavLink to='/category/rest' style={({ isActive }) => ({ color: isActive ? "#242529" : "#8A96A3" })}
-  className={'noActive'}> <GiSittingDog /> Descanso</NavLink></li>
+              className={'noActive'}> <GiSittingDog className="menu-icons"/> Descanso</NavLink></li>
         </ul>
         </div>
         <div className="navbar-cartWidget">  
