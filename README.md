@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# OnlyDogs
+***
+## Tabla de Contenidos.
+1. [Descripción](#descripción)
+2. [Tecnologías.](#tecnologías)
+3. [Instalación](#instalación)
+4. [Producción](#producción)
+5. [Licencia](#licencia)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Descripción
 
-## Available Scripts
+E-commerce de Alimento y accesorios solo para perros.  inspirado en la famosa pagina OnlyFans.
 
-In the project directory, you can run:
+### Tecnologías
 
-### `npm start`
+La App fue desarrollada a partir de Create-ReactApp. Se utilizo Visual Studio Code como Editor de Codigo, los estilos se desarrollaron con Sass y se utilizaron React Icons para el Navbar y el CartWidget. El sitio se encuentra en vista previa en Vercel (https://onlydogs-coral.vercel.app/) y como Base de Datos se utilizó el Servicio de Firebase Debajo se especifican las versiones de las dependencias del proyecto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+@testing-library/jest-dom: "^5.16.5,
+@testing-library/react": "^13.4.0,
+@testing-library/user-event": "^13.5.0,
+firebase": "^9.10.0,
+react": "^18.2.0,
+react-dom": "^18.2.0,
+react-icons": "^4.4.0,
+react-router-dom": "^6.4.0,
+react-scripts": "5.0.1,
+sass": "^1.55.0,
+web-vitals": "^2.1.4
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Instalación
 
-### `npm test`
+$ git clone https://github.com/ramalrivas/onlydogsbst.git
+$ cd ../path/to/the/file
+$ npm install
+$ npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Producción.
 
-### `npm run build`
+El proyecto se encuentra en desarrollo. Hasta la Fecha (15/10/2022), se realizo la logica básica de la tienda, lo proximo sería el desarrollo del formulario de usuarios y agregar elementos de UI.-
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Licencia.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+El proyecto fue realizado por Ramiro Leonel Rivas como proyecto final del Curso de React de CoderHouse. Tiene fines educativos por lo tanto se puede utilizar sin necesidad de hacer mención del creador.-
