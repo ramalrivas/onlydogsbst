@@ -16,9 +16,9 @@ useEffect(() => {
   return (
     <div className="counter-container">
        <div className="counter-counter">
-        <button disabled={count <=1} onClick={decrease}>-</button>
-        <span>{count}</span>
-        <button disabled={count >= stock} onClick={increase}>+</button>
+        <button disabled={count <=1} onClick={decrease} className="counter-btn">-</button>
+        <span className="counter-display">{count}</span>
+        <button disabled={count >= stock} onClick={increase} className="counter-btn">+</button>
         </div>
         <div className="counter-addCart">
             <button disabled={stock <= 0} onClick={()=> onAdd(count)}>Agregar al Carrito</button>

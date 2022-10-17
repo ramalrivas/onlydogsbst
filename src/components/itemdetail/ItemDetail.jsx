@@ -13,14 +13,21 @@ export const ItemDetail = ({data}) => {
         addProductCart(data, quantity);
            }
  return (
-    <div className="itemDetail-container">
+    <div className="itemDetailCard-container">
+      <div className='itemDetail-img'>
         <img src={data.img} alt="" />
-        <h3>{data.name}</h3>
-                
+        </div>
+        <div className='itemDetail-name'>
+        <h2>{data.name}</h2>
+        </div>
+        <div className='itemDetail-counter'>
         {
            addToCart ? <Link to='/cart'>Finalizar Compra</Link> : <ItemCounter initial={1} stock={5} onAdd={onAdd} />
     }
+    </div>
+    <div className='itemDetail-detail'>
     <p>{data.description}</p>
+    </div>
     </div>
   )
 }
