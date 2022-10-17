@@ -7,7 +7,6 @@ const ItemCart = ({product}) => {
  
   return (
     <div className='itemCart-container'>
-        <p>{product.id}</p>
         <p>Producto: {product.name}</p>
         <p>Cantidad: {product.quantity}</p>
         <p>Precio u.: {product.price}</p>
