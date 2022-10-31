@@ -1,0 +1,15 @@
+.cartOrder-container {
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    .cartOrder-order {
+        display: flex;
+        flex-direction: column;
+        width: 490px;
+        button {
+            align-self: center;
+            max-width: 200px;
+        }
+    }
+}

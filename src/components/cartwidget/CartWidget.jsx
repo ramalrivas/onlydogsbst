@@ -6,7 +6,7 @@ const {totalProducts} = useCartContext();
 
   return (
     <div className="cartWidget-widget">
-        <i className="bi bi-bag">Items: </i>
+        <i className="bi bi-bag"> </i>
         <span className="cartWidget-items">{totalProducts() || ''}</span>
     </div>
   )

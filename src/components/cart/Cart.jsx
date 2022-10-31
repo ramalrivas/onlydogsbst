@@ -34,13 +34,16 @@ const Cart = () => {
   } 
   
   return (
- <>
+ <div className="cartOrder-container">
+  <div className="cartOrder-order">
  {
   cart.map(product => <ItemCart key={product.id} product={product} />)
 }
   <p>Total: $ { totalPrice() }</p>
   <button onClick={handleClick}>Generar Pedido</button>
-  </>
+  <p>Ver el pedido x Consola y se guarda en Firebase!</p>
+  </div>
+  </div>
     
   )
 }
